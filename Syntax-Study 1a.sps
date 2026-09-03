@@ -1,0 +1,7 @@
+﻿* Encoding: UTF-8.
+
+DATASET ACTIVATE DataSet1.
+CORRELATIONS
+  /VARIABLES=HEXhum VIAhum Empathy Tolerance Attitudes
+  /PRINT=TWOTAIL NOSIG FULL
+  /MISSING=PAIRWISE.
